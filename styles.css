@@ -1,0 +1,26 @@
+#do{
+    background-color: rgba(0, 252, 34, 0.7);
+    padding: 5px;
+}
+#schedule{
+    background-color: rgba(252, 235, 0, 0.7);
+    padding: 5px;
+}
+#delegate{
+    background-color: rgba(0, 38, 252, 0.7);
+    padding: 5px;
+}
+#delete{
+    background-color: rgba(252, 0, 0, 0.7);
+    padding: 5px;
+}
+
+.quadrant{
+    height: 24vh ;
+}
+
+.description{
+    color: rgb(95, 95, 95);
+    margin-left: 6px;
+    font-size: 0.95rem;
+}

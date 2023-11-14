@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Hello from Electron renderer!</title>
+  </head>
+  <body>
+    <main>
+        <div id="do" class="quadrant">
+            <label>Do</label><label class="description">Tasks with deadlines or consequences</label><br>
+            <textarea>Tasks with deadlines or consequences</textarea>
+        </div>
+        <div id="schedule" class="quadrant">
+            <label>Schedule</label><label class="description">Tasks with unclear deadlines that contribute to long-term success</label><br>
+            <textarea>Tasks with unclear deadlines that contribute to long-term success</textarea>
+        </div>
+        <div id="delegate" class="quadrant">
+            <label>Delegate</label><label class="description">Tasks that must get done but don't require your specific skill set unclear deadlines that contribute to long-term success</label><br>
+            <textarea>Tasks that must get done but don't require your specific skill set unclear deadlines that contribute to long-term success</textarea>
+        </div>
+        <div id="delete" class="quadrant">
+            <label>Delete</label><label class="description">Distractions and unnecessary tasks</label><br>
+            <textarea>Distractions and unnecessary tasks</textarea>
+        </div>
+    </main>
+  </body>
+</html>

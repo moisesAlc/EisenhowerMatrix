@@ -1,0 +1,15 @@
+{
+  "name": "eisenhowermatrix",
+  "version": "0.0.1",
+  "description": "A Task Manager using the Eisenhower Matrix",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moisés Madeira",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.4"
+  }
+}
