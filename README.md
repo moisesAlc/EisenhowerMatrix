@@ -14,6 +14,12 @@
 
  - Electron, JS, HTML5 & CSS3
 
-# Running
+## Pre-requisites
 
-🚧
+ - Node.js
+ - Some Node Package Manager (i.e.: npm, pnpm...)
+
+## Running
+
+- `npm install`
+- `npm start`
